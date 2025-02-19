@@ -9,3 +9,8 @@ def prime(n):
 			if n % i == 0:
 				return False
 	return True
+
+def powerof5(n):
+	while n > 1:
+		n /= 5
+	return n == 1
